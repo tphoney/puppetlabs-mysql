@@ -99,6 +99,6 @@ Style/IfUnlessModifier:
 Style/SymbolProc:
   Enabled: false
 Lint/DecorateString:
-  Enabled: true
+  Enabled: false
 Lint/DecorateFunctionMessage:
   Enabled: true
