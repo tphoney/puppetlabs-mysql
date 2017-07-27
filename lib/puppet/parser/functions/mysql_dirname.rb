@@ -6,7 +6,7 @@ module Puppet::Parser::Functions
              ) do |arguments|
 
     if arguments.empty?
-      raise(Puppet::ParseError, 'mysql_dirname(): Wrong number of arguments ' \
+      raise(Puppet::ParseError, "mysql_dirname(): Wrong number of arguments " \
         "given (#{arguments.size} for 1)")
     end
 
