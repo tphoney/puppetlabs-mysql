@@ -52,6 +52,7 @@ group :system_tests do
   gem "beaker-abs", *location_for(ENV['BEAKER_ABS_VERSION'] || '~> 0.1')        
   gem "puppet-lint-i18n", :git => 'git@github.com:puppetlabs/puppet-lint-i18n.git'
   gem "puppet_pot_generator", :git => 'git@github.com:puppetlabs/puppet_pot_generator.git'
+  gem 'rubocop-i18n'
 end
 
 gem 'puppet', *location_for(ENV['PUPPET_GEM_VERSION'])

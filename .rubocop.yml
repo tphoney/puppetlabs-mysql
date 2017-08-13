@@ -1,8 +1,7 @@
 ---
 require:
  - rubocop-rspec
- - ./rubocop/decorate_function_message.rb
- - ./rubocop/decorate_string.rb
+ - rubocop-i18n
 AllCops:
   DisplayCopNames: true
   TargetRubyVersion: '2.1'
